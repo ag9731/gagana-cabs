@@ -26,7 +26,7 @@ export default function Hero() {
       <div className="container mx-auto px-4 md:px-6 relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12 h-full">
         
         {/* Left: Text Content */}
-        <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
+        <div className="w-full lg:w-5/12 flex flex-col items-center lg:items-start text-center lg:text-left">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -83,12 +83,12 @@ export default function Hero() {
         </div>
 
         {/* Right: Booking Form Widget */}
-        <div className="w-full lg:w-1/2 relative flex justify-center lg:justify-end items-center">
+        <div className="w-full lg:w-7/12 relative flex justify-center lg:justify-end items-center">
           <motion.div 
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="w-full max-w-md relative z-20 mt-8 lg:mt-0"
+            className="w-full max-w-lg xl:max-w-xl relative z-20 mt-8 lg:mt-0"
             id="booking-form"
           >
             <div className="bg-white p-2 rounded-2xl shadow-2xl">

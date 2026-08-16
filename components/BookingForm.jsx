@@ -104,10 +104,6 @@ export default function BookingForm() {
           <input required type="date" name="pickupDate" value={formData.pickupDate} onChange={handleChange} className="w-full px-4 py-2.5 rounded-lg border border-border focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary outline-none transition-all" />
         </div>
         <div className="space-y-1">
-          <label className="text-sm font-semibold text-text-dark">Pickup Time <span className="text-red-500">*</span></label>
-          <input required type="time" name="pickupTime" value={formData.pickupTime} onChange={handleChange} className="w-full px-4 py-2.5 rounded-lg border border-border focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary outline-none transition-all" />
-        </div>
-        <div className="space-y-1 md:col-span-2">
           <label className="text-sm font-semibold text-text-dark">Vehicle Preference <span className="text-red-500">*</span></label>
           <select required name="vehicleType" value={formData.vehicleType} onChange={handleChange} className="w-full px-4 py-2.5 rounded-lg border border-border focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary outline-none transition-all bg-white">
             <option value="">Select a Vehicle</option>
