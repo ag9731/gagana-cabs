@@ -51,7 +51,7 @@ export default function PricingClient() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
           transition={{ duration: 0.3 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 xl:gap-8"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
         >
           {pricing[activeTab].map((item) => (
             <PricingCard key={item.id} item={item} type={activeTab} />
