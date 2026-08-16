@@ -14,7 +14,7 @@ export const vehicles = [
     type: "SUV",
     capacity: 6,
     ac: true,
-    image: "/images/fleet/innova.webp",
+    image: "/images/fleet/innova.jpg",
     description: "Spacious and comfortable SUV for family trips and outstation travel."
   },
   {
@@ -23,7 +23,7 @@ export const vehicles = [
     type: "Premium SUV",
     capacity: 7,
     ac: true,
-    image: "/images/fleet/innova-crysta.webp",
+    image: "/images/fleet/innova-crysta.jpg",
     description: "Premium comfort and ample space, ideal for long journeys and corporate travel.",
     popular: true
   },
@@ -33,7 +33,7 @@ export const vehicles = [
     type: "Luxury SUV",
     capacity: 7,
     ac: true,
-    image: "/images/fleet/hybrid.webp",
+    image: "/images/fleet/hybrid.jpg",
     description: "Eco-friendly, ultra-smooth and premium experience for special journeys."
   },
   {

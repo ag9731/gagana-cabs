@@ -14,21 +14,21 @@ export const pricing = {
     {
       id: "apt-2",
       name: "Innova",
-      image: "/images/fleet/innova.webp",
+      image: "/images/fleet/innova.jpg",
       price: 1750,
       ac: true
     },
     {
       id: "apt-3",
       name: "Innova Crysta",
-      image: "/images/fleet/innova-crysta.webp",
+      image: "/images/fleet/innova-crysta.jpg",
       price: 1999,
       ac: true
     },
     {
       id: "apt-4",
       name: "Toyota Hybrid",
-      image: "/images/fleet/hybrid.webp",
+      image: "/images/fleet/hybrid.jpg",
       price: 2300,
       ac: true
     }
@@ -37,7 +37,7 @@ export const pricing = {
     {
       id: "loc-1",
       name: "Innova Crysta",
-      image: "/images/fleet/innova-crysta.webp",
+      image: "/images/fleet/innova-crysta.jpg",
       duration: "8 Hours",
       distance: "80 Km",
       price: 3800,
@@ -50,7 +50,7 @@ export const pricing = {
     {
       id: "loc-2",
       name: "Toyota Hybrid",
-      image: "/images/fleet/hybrid.webp",
+      image: "/images/fleet/hybrid.jpg",
       duration: "8 Hours",
       distance: "80 Km",
       price: 3500,
@@ -84,7 +84,7 @@ export const pricing = {
     {
       id: "out-1",
       name: "Innova Crysta",
-      image: "/images/fleet/innova-crysta.webp",
+      image: "/images/fleet/innova-crysta.jpg",
       ratePerKm: 18,
       ac: true,
       popular: true
@@ -92,7 +92,7 @@ export const pricing = {
     {
       id: "out-2",
       name: "Toyota Hybrid",
-      image: "/images/fleet/hybrid.webp",
+      image: "/images/fleet/hybrid.jpg",
       ratePerKm: 21,
       ac: true
     },
