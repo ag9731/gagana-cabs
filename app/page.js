@@ -36,7 +36,7 @@ export default function Home() {
             <p className="text-text-gray text-lg">From premium sedans to spacious Tempo Travellers, we have the perfect vehicle for your journey.</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {vehicles.map((vehicle) => (
               <VehicleCard key={vehicle.id} vehicle={vehicle} />
             ))}
