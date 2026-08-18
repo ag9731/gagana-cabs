@@ -111,7 +111,8 @@ export default function BookingForm() {
             <option value="Ertiga">Ertiga</option>
             <option value="Innova Crysta">Innova Crysta</option>
             <option value="Innova Hycross / Hybrid">Innova Hycross / Hybrid</option>
-            <option value="Tempo Traveller">Tempo Traveller / Urbania</option>
+            <option value="Tempo Traveller">Tempo Traveller</option>
+            <option value="Urbania">Urbania</option>
           </select>
         </div>
         <div className="md:col-span-2 mt-4 text-center">

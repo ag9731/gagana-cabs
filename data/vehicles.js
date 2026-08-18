@@ -38,11 +38,20 @@ export const vehicles = [
   },
   {
     id: "v-5",
-    name: "Tempo Traveller / Urbania",
-    type: "Van / Minibus",
-    capacity: 12, // Generic capacity
+    name: "Tempo Traveller",
+    type: "Minibus",
+    capacity: 12,
     ac: true,
     image: "/images/fleet/tempo-traveller.webp",
     description: "The best choice for group travel, corporate outings, and family vacations."
+  },
+  {
+    id: "v-6",
+    name: "Urbania",
+    type: "Premium Van",
+    capacity: 16,
+    ac: true,
+    image: "/images/fleet/urbania-black.jpg",
+    description: "Luxury group travel with ample legroom and premium interiors."
   }
 ];

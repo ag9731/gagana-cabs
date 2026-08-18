@@ -9,29 +9,29 @@ export const pricing = {
       extraInfo: "+ Toll",
       capacity: 4,
       waitingTime: "₹50/hour",
-      ac: true
+      ac: true,
     },
     {
       id: "apt-2",
       name: "Ertiga",
       image: "/images/fleet/ertiga.jpg",
       price: 1700,
-      ac: true
+      ac: true,
     },
     {
       id: "apt-3",
       name: "Innova Crysta",
       image: "/images/fleet/innova-crysta.webp",
       price: 1999,
-      ac: true
+      ac: true,
     },
     {
       id: "apt-4",
       name: "Toyota Hybrid",
       image: "/images/fleet/hybrid.webp",
       price: 2300,
-      ac: true
-    }
+      ac: true,
+    },
   ],
   local: [
     {
@@ -44,7 +44,7 @@ export const pricing = {
       extraKm: 20,
       outstationRate: "₹19/km",
       ac: true,
-      popular: true
+      popular: true,
     },
     {
       id: "loc-2",
@@ -55,7 +55,7 @@ export const pricing = {
       price: 4000,
       extraKm: 25,
       outstationRate: "₹22/km",
-      ac: true
+      ac: true,
     },
     {
       id: "loc-3",
@@ -67,7 +67,7 @@ export const pricing = {
       extraKm: 15,
       extraHour: 150,
       outstationRate: "₹13/km",
-      ac: true
+      ac: true,
     },
     {
       id: "loc-4",
@@ -79,34 +79,42 @@ export const pricing = {
       extraKm: 18,
       extraHour: 180,
       outstationRate: "₹13/km",
-      ac: true
+      ac: true,
     },
     {
       id: "loc-5",
-      name: "Tempo Traveller / Urbania (AC)",
+      name: "Tempo Traveller",
       image: "/images/fleet/tempo-traveller.webp",
-      price: "₹42/km",
-      outstationRate: "₹42/km",
+      price: "₹24/km",
+      outstationRate: "₹24/km",
       ac: true,
-      seatingOptions: ["9+1 Seater", "12+1 Seater", "16+1 Seater"]
-    }
+    },
+    {
+      id: "loc-6",
+      name: "Urbania",
+      image: "/images/fleet/urbania-black.jpg",
+      price: "₹41/km",
+      outstationRate: "₹41/km",
+      ac: true,
+      seatingOptions: ["9+1 Seater", "12+1 Seater", "16+1 Seater"],
+    },
   ],
   outstation: [
+    {
+      id: "out-2",
+      name: "Sedan",
+      image: "/images/fleet/sedan.webp",
+      ratePerKm: 13,
+      ac: true,
+      packageDetails: "Eesha Foundation\nNandi Hills\nPackage price: ₹3,499",
+    },
     {
       id: "out-1",
       name: "Ertiga - Option 1",
       image: "/images/fleet/ertiga.jpg",
       ratePerKm: 15,
       ac: true,
-      packageDetails: "Eesha Foundation\nNandi Hills\nPackage price: ₹4,499"
-    },
-    {
-      id: "out-2",
-      name: "Ertiga - Option 2",
-      image: "/images/fleet/ertiga.jpg",
-      ratePerKm: 13,
-      ac: true,
-      packageDetails: "Eesha Foundation\nNandi Hills\nPackage price: ₹3,499"
+      packageDetails: "Eesha Foundation\nNandi Hills\nPackage price: ₹4,499",
     },
     {
       id: "out-3",
@@ -115,21 +123,21 @@ export const pricing = {
       ratePerKm: 19,
       ac: true,
       packageDetails: "Eesha Foundation\nNandi Hills\nPackage price: ₹5,499",
-      popular: true
+      popular: true,
     },
     {
       id: "out-4",
       name: "Tempo Traveller (AC)",
       image: "/images/fleet/tempo-traveller.webp",
       ratePerKm: 24,
-      ac: true
+      ac: true,
     },
     {
       id: "out-5",
       name: "Tempo Traveller (Non-AC)",
       image: "/images/fleet/urbania-black.jpg",
       ratePerKm: 41,
-      ac: false
-    }
-  ]
+      ac: false,
+    },
+  ],
 };
