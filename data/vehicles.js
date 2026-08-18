@@ -33,7 +33,7 @@ export const vehicles = [
     type: "Luxury SUV",
     capacity: 7,
     ac: true,
-    image: "/images/fleet/hybrid.webp",
+    image: "/images/fleet/toyotahybrid.jpg",
     description: "Eco-friendly, ultra-smooth and premium experience for special journeys."
   },
   {

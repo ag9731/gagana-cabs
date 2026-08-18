@@ -28,7 +28,7 @@ export const pricing = {
     {
       id: "apt-4",
       name: "Toyota Hybrid",
-      image: "/images/fleet/hybrid.webp",
+      image: "/images/fleet/toyotahybrid.jpg",
       price: 2300,
       ac: true,
     },
@@ -61,7 +61,7 @@ export const pricing = {
     {
       id: "loc-2",
       name: "Toyota Hybrid",
-      image: "/images/fleet/hybrid.webp",
+      image: "/images/fleet/toyotahybrid.jpg",
       duration: "8 Hours",
       distance: "80 Km",
       price: 4000,
