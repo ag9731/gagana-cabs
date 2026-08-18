@@ -92,7 +92,7 @@ export const pricing = {
     {
       id: "loc-6",
       name: "Urbania",
-      image: "/images/fleet/urbania-black.jpg",
+      image: "/images/fleet/urbania-white.jpg",
       price: "₹41/km",
       outstationRate: "₹41/km",
       ac: true,
@@ -135,7 +135,7 @@ export const pricing = {
     {
       id: "out-5",
       name: "Tempo Traveller (Non-AC)",
-      image: "/images/fleet/urbania-black.jpg",
+      image: "/images/fleet/urbania-white.jpg",
       ratePerKm: 41,
       ac: false,
     },

@@ -51,7 +51,7 @@ export const vehicles = [
     type: "Premium Van",
     capacity: 16,
     ac: true,
-    image: "/images/fleet/urbania-black.jpg",
+    image: "/images/fleet/urbania-white.jpg",
     description: "Luxury group travel with ample legroom and premium interiors."
   }
 ];
