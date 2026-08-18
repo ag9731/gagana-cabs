@@ -35,6 +35,18 @@ export const pricing = {
   ],
   local: [
     {
+      id: "loc-3",
+      name: "Sedan (4+1)",
+      image: "/images/fleet/sedan.webp",
+      duration: "8 Hours",
+      distance: "80 Km",
+      price: 2200,
+      extraKm: 15,
+      extraHour: 150,
+      outstationRate: "₹13/km",
+      ac: true,
+    },
+    {
       id: "loc-1",
       name: "Innova Crysta",
       image: "/images/fleet/innova-crysta.webp",
@@ -55,18 +67,6 @@ export const pricing = {
       price: 4000,
       extraKm: 25,
       outstationRate: "₹22/km",
-      ac: true,
-    },
-    {
-      id: "loc-3",
-      name: "Sedan (4+1)",
-      image: "/images/fleet/sedan.webp",
-      duration: "8 Hours",
-      distance: "80 Km",
-      price: 2200,
-      extraKm: 15,
-      extraHour: 150,
-      outstationRate: "₹13/km",
       ac: true,
     },
     {
