@@ -18,7 +18,7 @@ export default function PricingCard({ item, type }) {
       {/* Top Image Section */}
       <div className="relative h-56 w-full bg-brand-light overflow-hidden">
         <Image 
-          src={item.image || "/images/fleet/innova.webp"} 
+          src={item.image || "/images/fleet/innova-crysta.webp"} 
           alt={`${item.name} cab service in Bangalore`}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -100,6 +100,19 @@ export default function PricingCard({ item, type }) {
             <li className="flex items-center justify-between">
               <span>Waiting Time</span>
               <span className="font-semibold text-text-dark">{item.waitingTime}</span>
+            </li>
+          )}
+          {item.seatingOptions && (
+            <li className="flex flex-col gap-1 mt-2">
+              <span className="font-semibold text-text-dark">Seating Options:</span>
+              <span className="text-text-gray">{item.seatingOptions.join(', ')}</span>
+            </li>
+          )}
+          {item.packageDetails && (
+            <li className="flex flex-col gap-1 mt-4 pt-4 border-t border-border/50 text-center">
+              {item.packageDetails.split('\n').map((line, i) => (
+                <span key={i} className={i === 2 ? "font-bold text-brand-primary text-base" : "text-text-dark font-semibold"}>{line}</span>
+              ))}
             </li>
           )}
         </ul>

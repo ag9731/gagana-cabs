@@ -10,12 +10,12 @@ export const vehicles = [
   },
   {
     id: "v-2",
-    name: "Innova",
-    type: "SUV",
+    name: "Ertiga",
+    type: "MUV",
     capacity: 6,
     ac: true,
-    image: "/images/fleet/innova.jpg",
-    description: "Spacious and comfortable SUV for family trips and outstation travel."
+    image: "/images/fleet/ertiga.jpg",
+    description: "Comfortable and affordable 6-seater, ideal for family outings and airport drops."
   },
   {
     id: "v-3",
@@ -23,7 +23,7 @@ export const vehicles = [
     type: "Premium SUV",
     capacity: 7,
     ac: true,
-    image: "/images/fleet/innova-crysta.jpg",
+    image: "/images/fleet/innova-crysta.webp",
     description: "Premium comfort and ample space, ideal for long journeys and corporate travel.",
     popular: true
   },
@@ -33,7 +33,7 @@ export const vehicles = [
     type: "Luxury SUV",
     capacity: 7,
     ac: true,
-    image: "/images/fleet/hybrid.jpg",
+    image: "/images/fleet/hybrid.webp",
     description: "Eco-friendly, ultra-smooth and premium experience for special journeys."
   },
   {

@@ -7,7 +7,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 const faqs = [
   {
     question: "Do you provide Bangalore airport pickup and drop?",
-    answer: "Yes, we provide 24/7 reliable airport transfer services across Bangalore. You can book a Sedan, Innova, or Innova Crysta for comfortable airport travel."
+    answer: "Yes, we provide 24/7 reliable airport transfer services across Bangalore. You can book a Sedan, Ertiga, or Innova Crysta for comfortable airport travel."
   },
   {
     question: "Do you provide outstation cab services from Bangalore?",
@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     question: "Which vehicles are available in your fleet?",
-    answer: "Our well-maintained fleet includes Hatchbacks/Sedans, Toyota Innova, Toyota Innova Crysta, Toyota Hybrid, and Tempo Travellers (Urbania) in both AC and Non-AC variants."
+    answer: "Our well-maintained fleet includes Hatchbacks/Sedans, Suzuki Ertiga, Toyota Innova Crysta, Toyota Hybrid, and Tempo Travellers (Urbania) in both AC and Non-AC variants."
   },
   {
     question: "How can I book a cab?",

@@ -33,5 +33,19 @@ export const packages = [
     description: "For exploring Bangalore's famous spots like Lalbagh, Cubbon Park, and Vidhana Soudha.",
     idealFor: "Tourists, family day out",
     image: "/images/destinations/bangalore-sightseeing.webp"
+  },
+  {
+    id: "pkg-6",
+    title: "Bangalore to Eesha Foundation",
+    description: "Visit the spectacular Adiyogi Shiva statue in Chikkaballapur.",
+    idealFor: "Spiritual retreats, day trips",
+    image: "/images/destinations/eesha-foundation.jpg"
+  },
+  {
+    id: "pkg-7",
+    title: "Bangalore to Coorg",
+    description: "Experience the Scotland of India with lush coffee estates and waterfalls.",
+    idealFor: "Nature lovers, weekend getaways",
+    image: "/images/destinations/coorg.jpg"
   }
 ];

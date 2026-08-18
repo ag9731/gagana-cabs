@@ -13,22 +13,22 @@ export const pricing = {
     },
     {
       id: "apt-2",
-      name: "Innova",
-      image: "/images/fleet/innova.jpg",
-      price: 1750,
+      name: "Ertiga",
+      image: "/images/fleet/ertiga.jpg",
+      price: 1700,
       ac: true
     },
     {
       id: "apt-3",
       name: "Innova Crysta",
-      image: "/images/fleet/innova-crysta.jpg",
+      image: "/images/fleet/innova-crysta.webp",
       price: 1999,
       ac: true
     },
     {
       id: "apt-4",
       name: "Toyota Hybrid",
-      image: "/images/fleet/hybrid.jpg",
+      image: "/images/fleet/hybrid.webp",
       price: 2300,
       ac: true
     }
@@ -37,77 +37,98 @@ export const pricing = {
     {
       id: "loc-1",
       name: "Innova Crysta",
-      image: "/images/fleet/innova-crysta.jpg",
+      image: "/images/fleet/innova-crysta.webp",
       duration: "8 Hours",
       distance: "80 Km",
-      price: 3800,
-      extraKm: 18,
-      extraHour: 200,
-      outstationRate: "₹18/km",
+      price: 3500,
+      extraKm: 20,
+      outstationRate: "₹19/km",
       ac: true,
       popular: true
     },
     {
       id: "loc-2",
       name: "Toyota Hybrid",
-      image: "/images/fleet/hybrid.jpg",
+      image: "/images/fleet/hybrid.webp",
       duration: "8 Hours",
       distance: "80 Km",
-      price: 3500,
-      extraKm: 21,
-      extraHour: 250,
-      outstationRate: "₹21/km",
+      price: 4000,
+      extraKm: 25,
+      outstationRate: "₹22/km",
       ac: true
     },
     {
       id: "loc-3",
-      name: "Tempo Traveller / Urbania (AC)",
-      image: "/images/fleet/tempo-traveller.webp",
-      price: "₹21/km",
-      extraKm: 21,
+      name: "Sedan (4+1)",
+      image: "/images/fleet/sedan.webp",
+      duration: "8 Hours",
+      distance: "80 Km",
+      price: 2200,
+      extraKm: 15,
       extraHour: 150,
-      outstationRate: "₹20/km",
+      outstationRate: "₹13/km",
       ac: true
     },
     {
       id: "loc-4",
-      name: "Tempo Traveller / Urbania (Non-AC)",
+      name: "Ertiga (6+1)",
+      image: "/images/fleet/ertiga.jpg",
+      duration: "8 Hours",
+      distance: "80 Km",
+      price: 3000,
+      extraKm: 18,
+      extraHour: 180,
+      outstationRate: "₹13/km",
+      ac: true
+    },
+    {
+      id: "loc-5",
+      name: "Tempo Traveller / Urbania (AC)",
       image: "/images/fleet/tempo-traveller.webp",
-      price: "₹19/km",
-      extraKm: 19,
-      extraHour: 150,
-      outstationRate: "₹18/km",
-      ac: false
+      price: "₹42/km",
+      outstationRate: "₹42/km",
+      ac: true,
+      seatingOptions: ["9+1 Seater", "12+1 Seater", "16+1 Seater"]
     }
   ],
   outstation: [
     {
       id: "out-1",
-      name: "Innova Crysta",
-      image: "/images/fleet/innova-crysta.jpg",
-      ratePerKm: 18,
+      name: "Ertiga - Option 1",
+      image: "/images/fleet/ertiga.jpg",
+      ratePerKm: 15,
       ac: true,
-      popular: true
+      packageDetails: "Eesha Foundation\nNandi Hills\nPackage price: ₹4,499"
     },
     {
       id: "out-2",
-      name: "Toyota Hybrid",
-      image: "/images/fleet/hybrid.jpg",
-      ratePerKm: 21,
-      ac: true
+      name: "Ertiga - Option 2",
+      image: "/images/fleet/ertiga.jpg",
+      ratePerKm: 13,
+      ac: true,
+      packageDetails: "Eesha Foundation\nNandi Hills\nPackage price: ₹3,499"
     },
     {
       id: "out-3",
-      name: "Tempo Traveller (AC)",
-      image: "/images/fleet/tempo-traveller.webp",
-      ratePerKm: 20,
-      ac: true
+      name: "Innova Crysta",
+      image: "/images/fleet/innova-crysta.webp",
+      ratePerKm: 19,
+      ac: true,
+      packageDetails: "Eesha Foundation\nNandi Hills\nPackage price: ₹5,499",
+      popular: true
     },
     {
       id: "out-4",
-      name: "Tempo Traveller (Non-AC)",
+      name: "Tempo Traveller (AC)",
       image: "/images/fleet/tempo-traveller.webp",
-      ratePerKm: 18,
+      ratePerKm: 24,
+      ac: true
+    },
+    {
+      id: "out-5",
+      name: "Tempo Traveller (Non-AC)",
+      image: "/images/fleet/urbania-black.jpg",
+      ratePerKm: 41,
       ac: false
     }
   ]

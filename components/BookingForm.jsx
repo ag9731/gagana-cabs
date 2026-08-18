@@ -108,7 +108,7 @@ export default function BookingForm() {
           <select required name="vehicleType" value={formData.vehicleType} onChange={handleChange} className="w-full px-4 py-2.5 rounded-lg border border-border focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary outline-none transition-all bg-white">
             <option value="">Select a Vehicle</option>
             <option value="Hatchback / Sedan">Hatchback / Sedan</option>
-            <option value="Innova">Innova</option>
+            <option value="Ertiga">Ertiga</option>
             <option value="Innova Crysta">Innova Crysta</option>
             <option value="Innova Hycross / Hybrid">Innova Hycross / Hybrid</option>
             <option value="Tempo Traveller">Tempo Traveller / Urbania</option>

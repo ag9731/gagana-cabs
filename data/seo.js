@@ -34,7 +34,7 @@ export const seoConfig = {
   },
   pricing: {
     title: `Cab Pricing & Fares | ${siteConfig.name}`,
-    description: "Transparent and affordable pricing for airport transfers, local rentals, and outstation trips. Book Innova, Sedan, or Tempo Traveller.",
+    description: "Transparent and affordable pricing for airport transfers, local rentals, and outstation trips. Book Ertiga, Sedan, or Tempo Traveller.",
     keywords: "affordable cab service Bangalore, Innova Crysta cab Bangalore fare, Tempo Traveller rental"
   },
   packages: {
